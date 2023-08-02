@@ -365,6 +365,11 @@ h1, h2, h3, h4, h5,
 			opacity: 1;
 		}
 	}
+	.owl-drag{
+		.owl-item{
+			touch-action: pan-y !important;
+		}
+	}
 	.owl-dots {
 		text-align: center;
 		.owl-dot {
