@@ -84,6 +84,12 @@ p {
   margin-bottom: 1rem;
 }
 
+.send-email{
+  padding-top: 300px; 
+  padding-bottom: 300px; 
+  margin: auto;
+}
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -1599,6 +1605,14 @@ pre code {
 }
 
 @media (max-width: 575.98px) {
+  #email-img{
+    display: none;
+  }
+  .send-email{
+    padding-top: 70px; 
+    padding-bottom: 70px; 
+    margin: auto;
+  }
   .table-responsive-sm {
     display: block;
     width: 100%;
